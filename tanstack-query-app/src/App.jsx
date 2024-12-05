@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/:id" element={<Detail />} />
+        <Route path="/empty" element={<Empty />} />
       </Routes>
     </BrowserRouter>
   );
